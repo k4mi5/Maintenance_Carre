@@ -6,8 +6,10 @@
     "license": "LGPL-3",
     "depends": ["maintenance"],
     "data": [
+        "data/ir_sequence.xml",
         "views/maintenance_equipment_views.xml",
     ],
+    "post_init_hook": "post_init_hook",
     "installable": True,
     "application": False,
 }
